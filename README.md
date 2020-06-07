@@ -1,5 +1,5 @@
 # Task Manger Installation
-###### Note: If you restart the server application will reset the save data,  next time user has to add create new task list
+###### Note: If you restart the server application will clean the existing data,  next time user has to add create new task list
 
 #### Node Version 
 * v10.16.0
