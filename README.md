@@ -1,16 +1,27 @@
-# task-manager
+# Task Manger Installation
+###### Note: If you restart the server application will reset the save data,  next time user has to add create new task list
 
-# node version v10.16.1
-#Install node v10.16.1 then switch nvm use v10.16.1
+#### Node Version 
+* v10.16.0
+    * nvm i v10.16.0
+    * nvm use v10.16.0
 
-cd task-rest
-npm i
-node app.js  // this will start rest service on port 3000
+### Stat Rest Server 
+ * task-rest
+    * cd task-rest
+    * npm i
+    * node app.js
+
+### Start UI
+
+ * task-app
+    * cd task-app
+    * npm i
+    * npm run serve
 
 
-#Start UI
-cd task-app
-npm i
-npm run serve 
+
+
+
 
 
