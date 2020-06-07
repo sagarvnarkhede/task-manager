@@ -1,4 +1,4 @@
-# Task Manger Installation
+# Task Manager Installation Guide
 ###### Note: If you restart the server application will clean the existing data,  next time user has to add create new task list
 
 #### Node Version 
