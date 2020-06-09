@@ -28,7 +28,7 @@
     </v-col>
     <v-col md="3" lg="3" xs="10" sm="10">
       <v-btn color="#082fc3" text @click="addTaskList">
-        <v-icon small>mdi-plus</v-icon>Add Another List
+        <v-icon small>mdi-plus</v-icon>Add List
       </v-btn>
     </v-col>
 

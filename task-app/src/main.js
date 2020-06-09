@@ -4,14 +4,9 @@ import App from './App.vue'
 //import Vuetify from './plugins/vuetify';
 import Vuetify from 'vuetify/lib';
 import router from './router'
-import _ from "lodash";
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 Vue.use(Vuetify);
-
-Vue.prototype._ = _;
-
 Vue.config.productionTip = false
-
 new Vue({
   router,
   vuetify: new Vuetify({
