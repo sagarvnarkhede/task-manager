@@ -5,10 +5,12 @@ import App from './App.vue'
 import Vuetify from 'vuetify/lib';
 import router from './router'
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
+
 Vue.use(Vuetify);
 Vue.config.productionTip = false
 new Vue({
   router,
+ 
   vuetify: new Vuetify({
     theme: {
       dark: false,
@@ -18,6 +20,7 @@ new Vue({
           "content-area-background-color": "#f2ebf6"
           
         }
+        
       }
     }
     

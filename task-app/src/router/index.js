@@ -15,14 +15,16 @@ Vue.use(VueRouter)
   {
     path: "/home",
     name: "home",
-    redirect: "/task",
     component: DefaultContainer,
     children: [
       {
-        path: "/task",
+        path: "/home/task",
         name: "task",
         component: Task
-      }]
+      },
+      
+    
+    ]
     }
 ]
 
